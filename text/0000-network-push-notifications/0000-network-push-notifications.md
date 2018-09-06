@@ -74,7 +74,7 @@ The client libs will need to have the ability to send these notifications, as we
 
 ## Drawbacks
 
-Possibility of leaking IP addresses or other users information in the process if not implemented carefully.
+Possibility of leaking IP addresses or other users information in the process if not implemented carefully.  
 Possible extra network load.
 
 ## Alternatives
