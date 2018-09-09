@@ -47,11 +47,11 @@ Should contain:
 
 - Unique identifer hash, which should be null/nil/none if not specified
 - Pointer to notification chunk on the SAFE network
-- Pointer array to related chunks on the SAFE network
+- Pointer array to related data chunks on the SAFE network
 
 ### Example
 
-APP A uploads content, sends a network push notification containing a pointer to related chunks on the network, with an optional unique identifier specific to this notification, which APP B is watching for, and possible said unique identifier, and uses accordingly.
+APP A uploads content, sends a network push notification containing a pointer to related chunks on the network, with an optional unique identifier specific to this notification, which APP B is watching for, and possibly said unique identifier, and uses accordingly.
 
 ### Possibilities
 
@@ -70,7 +70,7 @@ The client libs will need to have the ability to send these notifications, as we
 
 ### Corner cases
 
-**TODO**: Find possible corner cases.
+- Can we guarantee that the APP can find these in a huge network within a reasonable amount of time?
 
 ## Drawbacks
 
